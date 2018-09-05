@@ -128,8 +128,8 @@ def adding_to_dennis
           :languages => ["C"]
         }
      }
-     string = 
+     string = "Assembly"
      
-   programmer_hash[:dennis_ritchie][:languages].merge(string)
+   programmer_hash.merge[:dennis_ritchie][:languages](string)
    programmer_hash
 end
