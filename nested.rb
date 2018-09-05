@@ -107,8 +107,8 @@ def changing_alan
      #programmer_hash[:alan_kay][:known_for]["GUI"] = #programmer_hash.delete("Object Orientation") 
     # programmer_hash[:alan_kay][:known_for] = alans_new_info
      ##programmer_hash.collect do |alan_kay|known_for|
-       alans_new_info
-     end
+      #alans_new_info
+     programmer_hash[:alan_kay][:known_for]= alans_new_info
 end
 
 def adding_to_dennis
