@@ -108,6 +108,7 @@ def changing_alan
     # programmer_hash[:alan_kay][:known_for] = alans_new_info
      programmer_hash.collect do |alan_kay|known_for|
        alans_new_info
+     end
 end
 
 def adding_to_dennis
